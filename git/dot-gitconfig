@@ -1,0 +1,9 @@
+[user]
+	email = decko@redhat.com
+	name = André \"decko\" de Brito
+[init]
+	defaultBranch = main
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate

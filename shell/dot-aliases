@@ -1,0 +1,28 @@
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias _dt=dotfiles
+alias vim=nvim
+alias vimdiff='nvim -d'
+alias v=vim
+alias wk=workon
+alias _=sudo
+alias _d=docker
+alias cat=bat || cat
+alias pyv='pipenv run nvim'
+alias t='tmux new -A -s 0'
+alias agr='alias | rg'
+alias ls=lsd
+alias tree='ls --tree'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias e="emacs -nw"
+alias localaws="aws --endpoint-url http://localhost:4100"
+alias ssh="TERM=xterm ssh"
+alias kbx="kubectl -n bx"
+alias dotdrop="/home/decko/.dotfiles/dotdrop.sh"
+alias wezterm="flatpak run org.wezfurlong.wezterm"
+alias spulp="HTTPS_PROXY=http://squid.corp.redhat.com:3128 pulp -p stage"
+alias admin-spulp="HTTPS_PROXY=http://squid.corp.redhat.com:3128 pulp -p stage-admin"
+alias opulp="HTTPS_PROXY=http://squid.corp.redhat.com:3128 pulp -p stage-oauth"
+alias pulp-http="HTTPS_PROXY=http://squid.corp.redhat.com:3128 http --cert ~/dev/pulp/certs/ddebrito.pem"
+alias pulp-local="pulp -p local"
