@@ -69,6 +69,7 @@ export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 # export LANG=pt_BR.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Load our user defined functions.
 [ -f ~/.functions ] && source ~/.functions
@@ -79,8 +80,8 @@ export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/
 # Load our user defined aliases.
 [ -f ~/.aliases ] && source ~/.aliases
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 [ -d /usr/share/skim ] && source /usr/share/skim/shell/key-bindings.bash
 # [ -f ~/.fzf.bash ] && source ~/.fzf.bash
@@ -103,20 +104,20 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 
 # Add Meteor prefix to the PATH.
-export PATH="$HOME/.meteor:$PATH"
-
+# export PATH="$HOME/.meteor:$PATH"
+#
 # Add PHP's Composer vendor prefix to the PATH.
-export PATH="$HOME/.config/composer/vendor/bin:$PATH"
-
+# export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+#
 # Make firefox scroll one-to-one trackpad scrolling
-export MOZ_USE_XINPUT2=1
-# export GDK_BACKEND=wayland
-export MOZ_ENABLE_WAYLAND=1
-export MOZ_WEBRENDER=1
+# export MOZ_USE_XINPUT2=1
+# # export GDK_BACKEND=wayland
+# export MOZ_ENABLE_WAYLAND=1
+# export MOZ_WEBRENDER=1
 
 # Enable PasswordStore(pass) extensions
-export PASSWORD_STORE_ENABLE_EXTENSIONS=true
-
+# export PASSWORD_STORE_ENABLE_EXTENSIONS=true
+#
 export GSM_SKIP_SSH_AGENT_WORKAROUND=1
 
 # Use emacs as my default terminal editor
@@ -172,3 +173,5 @@ export OCI_ENV_PATH=~/dev/pulp/oci_env
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$HOME/.jbang/currentjdk/bin:$PATH"
 export JAVA_HOME=$HOME/.jbang/currentjdk
+
+export PATH="$HOME/.bin/oc:$PATH"

@@ -1,2 +1,2 @@
 all:
-	stow --dotfiles -t ~ */
+	stow --dotfiles --restow -t ~ */
