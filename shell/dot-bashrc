@@ -9,10 +9,6 @@ unset MAILCHECK
 # Change this to your console based IRC client of choice.
 export IRC_CLIENT='irssi'
 
-<<<<<<< HEAD
-# Set this to the command you use for todo.txt-cli
-# export TODO="t"
-
 # Set this to false to turn off version control status checking within the prompt for all themes
 export SCM_CHECK=true
 
@@ -42,7 +38,7 @@ export SCM_CHECK=true
 # export BASH_IT_RELOAD_LEGACY=1
 
 # Load Bash It
-source "$BASH_IT"/bash_it.sh
+# source "$BASH_IT"/bash_it.sh
 
 # Setting path
 export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:$HOME/.local/bin:$HOME/bin:~/dev/flutter/bin"
